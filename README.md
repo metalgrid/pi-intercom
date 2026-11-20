@@ -4,7 +4,11 @@ Send messages between running Pi sessions on the same machine and under the same
 
 ## Load
 
-This directory lives at `~/.pi/agent/extensions/intercom/`. Pi discovers `index.ts` automatically.
+Install as a package:
+
+```bash
+pi install git:github.com/metalgrid/pi-intercom
+```
 
 Run `/reload` in each existing session, or start new sessions. Both sessions must load the extension.
 

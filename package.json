@@ -1,0 +1,19 @@
+{
+  "name": "pi-intercom",
+  "version": "1.0.0",
+  "description": "Pi extension: send messages between running Pi sessions on the same machine",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["pi-package"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metalgrid/pi-intercom.git"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
